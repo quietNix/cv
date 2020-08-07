@@ -1,0 +1,33 @@
+/*******************Tag Selector*******************/
+body {
+  background-color: #f0f5f9;
+}
+hr {
+  width: 10%;
+  border-style: dotted none none;
+  border-width: 5px;
+  border-color: rgb(224, 224, 224);
+  margin-left: 3%;
+}
+h1{
+    color: #ffa36c;
+}
+h3{
+    color: #ffa36c;
+    font-style: oblique;
+}
+
+/*******************Class Selector*****************/
+/* one html element can have more tha one class */
+.circular{
+    border-radius: 100%;
+}
+.circular:hover{
+    border-radius: 0%;
+    width: 600px;
+    height: 600px;
+}
+
+
+/*******************Id Selector********************/
+/* one html element can not have more tha one id */
