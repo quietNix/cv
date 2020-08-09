@@ -1,33 +1,162 @@
-/*******************Tag Selector*******************/
-body {
-  background-color: #f0f5f9;
+/**************Tag Selector*************/
+h1 {
+  margin: 0 auto 0;
+  font-family: "Gloria Hallelujah", cursive;
+  color: #66bfbf;
 }
-hr {
-  width: 10%;
+h3 {
+  margin-top: 0rem;
+  color: #1b4c75;
+  line-height: 2;
+  font-weight: normal;
+}
+h2 {
+  color: #ffa36c;
+}
+a {
+  color: #1b4c75;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover{
+  color: #37a5ff;
+}
+/**************Class Selector*************/
+.topContainer {
+  background-color: #d9adad;
+  position: relative;
+  padding: 10% 0 5%;
+  background-size: cover;
+}
+
+.middleContainer {
+  background-color: #dddddd;
+  padding: 2% 0 1%;
+  width: 100%;
+}
+
+.bottomContainer {
+  padding-top: 5px;
+  background-color: lightslategrey;
+}
+.bottomContainer a{
+  color: #4b3a31;
+  text-decoration: none;
+}
+.bottomContainer p{
+  color: #f0f5f9;
+}
+
+.software {
+  text-decoration: underline;
+}
+
+.cloud {
+  position: absolute;
+  top: 15%;
+  right: 30%;
+}
+
+.cloud1 {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+
+.profilePic {
+  border-radius: 100%;
+  width: 300px;
+  height: 300px;
+  transition: all 0.5s;
+}
+.profilePic:hover {
+  border-radius: 20%;
+  transform: scale(1.5);
+}
+
+.dottedLine {
+  width: 5%;
   border-style: dotted none none;
   border-width: 5px;
-  border-color: rgb(224, 224, 224);
-  margin-left: 3%;
+  border-color: rgb(255, 255, 255);
 }
-h1{
-    color: #ffa36c;
+.contacth1 {
+  color: #ffa36c;
 }
-h3{
-    color: #ffa36c;
-    font-style: oblique;
-}
-
-/*******************Class Selector*****************/
-/* one html element can have more tha one class */
-.circular{
-    border-radius: 100%;
-}
-.circular:hover{
-    border-radius: 0%;
-    width: 600px;
-    height: 600px;
+.contacth3 {
+  color: #ffa36c;
+  font-style: oblique;
 }
 
+.indexH1 {
+  font-size: 4rem;
+}
+.indexSkills {
+  width: 31.5%;
+  margin: 0% auto;
+  text-align: left;
+  line-height: 1.5;
+}
+.chillyImg {
+  width: 30%;
+  float: left;
+  margin-right: 10px;
+}
+.indexClearWrap {
+  clear: left;
+}
+.hobbyHeading {
+  font-family: fantasy;
+  font-size: 3em;
+  border-bottom: 2px solid rgba(9, 85, 129, 0.3);
+  border-right: 2px solid rgb(28, 77, 117);
+  width: 400px;
+  text-align: center;
+  box-shadow: 4px 4px 4px #4b3a31;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+/**************Id Selector*************/
+#indexBody {
+  text-align: center;
+  margin: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+#contactBody {
+  background-color: #f0f5f9;
+  margin-top: 0px;
+}
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
-/*******************Id Selector********************/
-/* one html element can not have more tha one id */
+#container img {
+  width: 450px;
+  height: 300px;
+  margin: 15px;
+  transition: all 0.5s;
+}
+#container img:hover {
+  transform: scale(1.1);
+  cursor: grab;
+}
+
+.btn {
+  background: linear-gradient(to bottom, #11cdd4 5%, #11999e 100%);
+  background-color: #11cdd4;
+  border-radius: 10px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+.btn:hover {
+  background: linear-gradient(to bottom, #30e3cb 5%, #2bc4ad 100%);
+  background-color: #30e3cb;
+}
